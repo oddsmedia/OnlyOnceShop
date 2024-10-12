@@ -1,6 +1,6 @@
 const CONFIG = {
   // 封面大图
-  COMMERCE_HOME_BANNER_ENABLE: false,
+  COMMERCE_HOME_BANNER_ENABLE:'false',
 
   COMMERCE_TEXT_CENTER_TITLE: 'Product Center', // 中间产品区块标题
   COMMERCE_TEXT_CENTER_DESCRIPTION:
@@ -14,7 +14,7 @@ const CONFIG = {
   COMMERCE_FOOTER_RIGHT_TEXT:'Service For You！', // 页脚右侧图片下的文字描述
 
   COMMERCE_HOME_POSTS_COUNT: 9, // 首页展示商品数
-  COMMERCE_CONTACT_WHATSAPP_SHOW: true, // 是否展示whatsapp联系按钮 请配置 CONTACT_WHATSAPP
-  COMMERCE_CONTACT_TELEGRAM_SHOW: false, // 联系栏展示telegram按钮 请配置 CONTACT_TELEGRAM
+  COMMERCE_CONTACT_WHATSAPP_SHOW:'true', // 是否展示whatsapp联系按钮 请配置 CONTACT_WHATSAPP
+  COMMERCE_CONTACT_TELEGRAM_SHOW:'false', // 联系栏展示telegram按钮 请配置 CONTACT_TELEGRAM
 }
 export default CONFIG
